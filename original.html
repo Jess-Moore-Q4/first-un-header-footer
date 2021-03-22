@@ -1,0 +1,98 @@
+<div class="topHeader">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-5">
+                <a class="logoNav" href="https://www.mybank.com/">
+                    <img alt="Home" src="/files/images/irw/logo-first-united.png" style="width: 292px; height: 97px"
+                        title="Go to Home Page" />
+                </a>
+            </div>
+            <div class="col-md-5 col-sm-6 col-xs-7 col-md-offset-4">
+                <ul class="headerNav">
+                    <li><a href="https://www.mybank.com/locator.php">Locations</a></li>
+                    <li><a href="/corporate-overview/corporate-profile">Investor Relations</a></li>
+                    <li>
+                        <a href="https://www.mybank.com/digital-banking/mobile-banking-apps">Mobile Apps</a>
+                    </li>
+                </ul>
+                <div role="group" aria-labelledby="irSearchLabel" class="search-display">
+                    <div id="searchControlForm">
+                        <div id="irwsearch">
+                            <div class="input-group custom-search-form headerForm form-inline">
+                                <input aria-labelledby="irSearchLabel" id="searchControlInput" type="text"
+                                    maxlength="500" class="form-control" name="q" autocomplete="off" value=""
+                                    placeholder="Search IR site" />
+                                <a id="searchControlButton"
+                                    class="glyphicon glyphicon-search form-control-feedback"></a>
+
+                            </div>
+                            <div class="input-group custom-search-form hide">
+                                <div class="form-group-inline has-feedback">
+                                    <div aria-labelledby="irSearchLabel" role="radiogroup" class="irwSearchRadio">
+                                        <label class="radio-inline irwCustomLabel">
+                                            <input type="radio" class="radioBoot" name="contentSet" value="Site"
+                                                checked="checked" />
+                                            Entire IR Site
+                                        </label>
+                                        <label class="radio-inline irwCustomLabel">
+                                            <input type="radio" class="radioBoot" name="contentSet" value="Filings" />
+                                            Documents
+                                        </label>
+                                        <label class="radio-inline irwCustomLabel">
+                                            <input type="radio" class="radioBoot" name="contentSet"
+                                                value="PressReleases" />
+                                            Press Releases
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    var $irSearchInput = $("#searchControlInput"),
+                        $irSearchOptions = $(".irwSearchRadio"),
+                        $irSearchButton = $("#searchControlButton"),
+                        getSearchCategory = function (value) {
+                            var categoryMap = {
+                                PressReleases: "press_release",
+                                Filings: "sec_filing",
+                                Site: "",
+                            };
+
+                            return categoryMap[value] || "";
+                        },
+                        searchRedirect = function (event) {
+                            event.preventDefault();
+
+                            var searchTerm = $irSearchInput.val(),
+                                searchCategory = getSearchCategory(
+                                    $irSearchOptions.find("input:checked").val()
+                                ),
+                                searchUrl =
+                                "/search-results?SearchTerm=" +
+                                searchTerm +
+                                "&category=" +
+                                searchCategory +
+                                "&page=1";
+
+                            window.location = searchUrl;
+                        };
+
+                    $irSearchInput.on("keypress", function (event) {
+                        if (event.keyCode == 13) {
+                            searchRedirect(event);
+                        }
+                    });
+
+                    $irSearchButton.on("click", function (event) {
+                        searchRedirect(event);
+                    });
+                </script>
+                <div class="headerCallus">
+                    <label class="callusNo"><a href="tel:8886922654">1-888-692-2654</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
