@@ -12,7 +12,6 @@ $host: 'https://firstunitedcorp2020index.s4.q4web.com';
 @-webkit-keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-10%);}to{opacity:1;-webkit-transform:translateX(0);}}
 @keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-10%);transform:translateX(-10%);}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0);}}
 .corporate--header {
-    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     @media all{
     /*! @import https://mybank.com/wp-content/themes/Divi/style.css */
     ul{list-style:none;}
@@ -637,4 +636,8 @@ $host: 'https://firstunitedcorp2020index.s4.q4web.com';
     /*! CSS Used from: Embedded */
     body:not(.ae-reader) .ae-reader-visible.ae-compliance-indent{display:inline-block!important;height:1px;left:-9999px!important;line-height:0px;overflow:hidden;position:absolute!important;top:0;white-space:nowrap;width:1px!important;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
     /*! CSS Used keyframes */
+}
+
+.corporate--header, .corporate--footer {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }

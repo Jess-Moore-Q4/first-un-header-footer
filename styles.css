@@ -33,7 +33,6 @@
 }
 
 .corporate--header {
-  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
   /*! CSS Used from: https://mybank.com/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css?ver=4.9.2 ; media=all */
   /*! CSS Used from: Embedded */
   /*! CSS Used from: Embedded */
@@ -2554,5 +2553,9 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.corporate--header, .corporate--footer {
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
