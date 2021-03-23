@@ -1,4 +1,12 @@
-/*! CSS Used keyframes */
+@font-face {
+  font-family: ETmodules;
+  font-display: swap;
+  src: url(../design/header/modules.eot);
+  src: url(../design/header/modules.eot?#iefix) format("embedded-opentype"), url(../design/header/modules.ttf) format("truetype"), url(../design/header/modules.woff) format("woff"), url(../design/header/modules.svg#ETmodules) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @-webkit-keyframes fadeLeft {
   0% {
     opacity: 0;
@@ -24,39 +32,15 @@
 }
 
 .corporate--header {
-  /*! CSS Used from: https://mybank.com/wp-content/plugins/awsm-team-pro/css/team.min.css?ver=1.9.1 ; media=all */
-  /*! CSS Used from: https://mybank.com/wp-content/themes/Divi-child/style.css?ver=4.9.2 ; media=all */
-  /*! CSS Used from: Embedded */
-  /*! CSS Used from: https://mybank.com/wp-content/plugins/awsm-team-pro/css/team.min.css?ver=1.9.1 ; media=all */
-  /*! CSS Used from: https://mybank.com/wp-content/themes/Divi-child/style.css?ver=4.9.2 ; media=all */
   /*! CSS Used from: https://mybank.com/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css?ver=4.9.2 ; media=all */
   /*! CSS Used from: Embedded */
   /*! CSS Used from: Embedded */
 }
 
 @media all {
-  .corporate--header .clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-}
-
-@media all {
   .corporate--header {
     /*! @import https://mybank.com/wp-content/themes/Divi/style.css */
     /*! end @import */
-  }
-  .corporate--header a, .corporate--header div, .corporate--header li, .corporate--header span, .corporate--header ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    vertical-align: baseline;
-    background: transparent;
   }
   .corporate--header ul {
     list-style: none;
@@ -121,7 +105,7 @@
     position: relative;
   }
   .corporate--header #et-info-phone:before {
-    content: "\e090";
+    content: "\e090" !important;
     position: relative;
     top: 2px;
     margin-right: 2px;
@@ -395,14 +379,6 @@
 }
 
 @media all {
-  .corporate--header .clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-}
-
-@media all {
   .corporate--header {
     /*! @import https://mybank.com/wp-content/themes/Divi/style.css */
     /*! end @import */
@@ -666,7 +642,7 @@
 }
 
 @media all and (min-width: 981px) {
-  .corporate--header #et-top-navigation ul li:hover > ul {
+  .corporate--header #et-top-navigation ul.nav > li:hover > ul {
     -webkit-animation: fadeLeft .4s ease-in-out;
     animation: fadeLeft .4s ease-in-out;
   }
@@ -752,7 +728,7 @@
     position: relative;
     line-height: 2em;
   }
-  .corporate--header .nav li ul {
+  .corporate--header .nav > li > ul {
     position: absolute;
     padding: 20px 0;
     z-index: 9999;
@@ -1068,5 +1044,1511 @@
 
 .corporate--header button.ae-offscreen.ae-accessible-menu-button:focus {
   left: auto;
+}
+
+.corporate--header #top-menu li.login > a:hover {
+  background: transparent !important;
+}
+
+.corporate--header #top-menu li.current-menu-item > a, .corporate--header #top-menu li.current_page_item > a {
+  color: #dd0031;
+}
+
+.corporate--header #irSub .has-sub ul {
+  background: #bec6c3 !important;
+  display: none;
+}
+
+.corporate--header #irSub .has-sub ul li a {
+  width: 100%;
+  font-size: 0.8em;
+  padding: 2px 0px 2px 30px;
+  position: relative;
+}
+
+.corporate--header #irSub .has-sub ul li a::before {
+  content: "-";
+  position: absolute;
+  left: -5px;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.corporate--footer {
+  /*! CSS Used from: https://mybank.com/wp-includes/css/dist/block-library/style.min.css?ver=588f839b0edea5096e103006e9c023a5 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/plugins/awsm-team-pro/css/team.min.css?ver=1.9.1 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/themes/Divi-child/style.css?ver=4.9.2 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/plugins/eventON/assets/css/eventon_styles.css?ver=3.1.1 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/plugins/eventON/assets/fonts/all.css?ver=3.1.1 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/plugins/eventON/assets/css/eventon_dynamic_styles.css?ver=3.1.1 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/plugins/strong-testimonials/templates/bold/content.css?ver=2.51.2 ; media=all */
+  /*! CSS Used from: https://mybank.com/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css?ver=4.9.2 ; media=all */
+  /*! CSS Used from: Embedded */
+  /*! CSS Used from: Embedded */
+  /*! CSS Used keyframes */
+}
+
+@media all {
+  .corporate--footer .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+
+@media all {
+  .corporate--footer {
+    /*! @import https://mybank.com/wp-content/themes/Divi/style.css */
+    /*! end @import */
+  }
+  .corporate--footer a, .corporate--footer b, .corporate--footer div, .corporate--footer em, .corporate--footer form, .corporate--footer h3, .corporate--footer h4, .corporate--footer i, .corporate--footer img, .corporate--footer li, .corporate--footer p, .corporate--footer span, .corporate--footer strong, .corporate--footer ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  .corporate--footer ul {
+    list-style: none;
+  }
+  .corporate--footer :focus {
+    outline: 0;
+  }
+  .corporate--footer footer {
+    display: block;
+  }
+  .corporate--footer a {
+    color: #2ea3f2;
+  }
+  .corporate--footer a, .corporate--footer a:hover {
+    text-decoration: none;
+  }
+  .corporate--footer p {
+    padding-bottom: 1em;
+  }
+  .corporate--footer p:not(.has-background):last-of-type {
+    padding-bottom: 0;
+  }
+  .corporate--footer strong {
+    font-weight: 700;
+  }
+  .corporate--footer em, .corporate--footer i {
+    font-style: italic;
+  }
+  .corporate--footer h3, .corporate--footer h4 {
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+  }
+  .corporate--footer h3 a {
+    color: inherit;
+  }
+  .corporate--footer h3 {
+    font-size: 22px;
+  }
+  .corporate--footer h4 {
+    font-size: 18px;
+  }
+  .corporate--footer input {
+    -webkit-appearance: none;
+  }
+  .corporate--footer input[type=text] {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    padding: 2px;
+    color: #4e4e4e;
+  }
+  .corporate--footer input[type=text]:focus {
+    border-color: #2d3940;
+    color: #3e3e3e;
+  }
+  .corporate--footer input[type=text] {
+    margin: 0;
+  }
+  .corporate--footer button, .corporate--footer input {
+    font-family: inherit;
+  }
+  .corporate--footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  .corporate--footer .bottom-nav li.current-menu-item > a, .corporate--footer .et-social-icon a:hover, .corporate--footer .footer-widget h4 {
+    color: #2ea3f2;
+  }
+  .corporate--footer .footer-widget li:before {
+    border-color: #2ea3f2;
+  }
+  .corporate--footer .container {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+  }
+  .corporate--footer .container {
+    text-align: left;
+    position: relative;
+  }
+  .corporate--footer .et-social-icons {
+    float: right;
+  }
+  .corporate--footer .et-social-icons li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .corporate--footer .et-social-icon a {
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: color .3s ease 0s;
+    transition: color .3s ease 0s;
+    color: #666;
+    text-decoration: none;
+  }
+  .corporate--footer .et-social-icon span {
+    display: none;
+  }
+  .corporate--footer .et-social-icons a:hover {
+    opacity: .7;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  .corporate--footer #main-footer {
+    background-color: #222;
+  }
+  .corporate--footer #footer-widgets {
+    padding: 6% 0 0;
+  }
+  .corporate--footer .footer-widget {
+    float: left;
+    color: #fff;
+  }
+  .corporate--footer .footer-widget .fwidget:last-child {
+    margin-bottom: 0 !important;
+  }
+  .corporate--footer #footer-widgets .footer-widget li {
+    padding-left: 14px;
+    position: relative;
+  }
+  .corporate--footer #footer-widgets .footer-widget li:before {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 3px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 9px;
+  }
+  .corporate--footer #footer-widgets .footer-widget li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .corporate--footer #footer-widgets .footer-widget li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .corporate--footer #footer-bottom {
+    background-color: #1f1f1f;
+    background-color: rgba(0, 0, 0, 0.32);
+    padding: 15px 0 5px;
+  }
+  .corporate--footer #footer-bottom a {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  .corporate--footer #footer-info {
+    text-align: left;
+    color: #666;
+    padding-bottom: 10px;
+    float: left;
+  }
+  .corporate--footer #footer-info a {
+    font-weight: 700;
+    color: #666;
+  }
+  .corporate--footer #footer-info a:hover {
+    opacity: .7;
+  }
+  .corporate--footer #et-footer-nav {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  .corporate--footer .bottom-nav {
+    padding: 15px 0;
+  }
+  .corporate--footer .bottom-nav li {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 22px;
+  }
+  .corporate--footer .bottom-nav a {
+    color: #bbb;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  .corporate--footer .bottom-nav a:hover {
+    opacity: .7;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .corporate--footer .footer-widget:nth-child(n) {
+    width: 46.25% !important;
+    margin: 0 7.5% 7.5% 0 !important;
+  }
+  .corporate--footer #footer-widgets .footer-widget .fwidget {
+    margin-bottom: 16.21%;
+  }
+  .corporate--footer #footer-widgets {
+    padding: 8% 0;
+  }
+  .corporate--footer #footer-widgets .footer-widget:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .corporate--footer #footer-widgets .footer-widget:nth-last-child(-n+2) {
+    margin-bottom: 0 !important;
+  }
+  .corporate--footer .bottom-nav {
+    text-align: center;
+  }
+  .corporate--footer .container {
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+  }
+  .corporate--footer #footer-info, .corporate--footer .et-social-icons {
+    float: none;
+    text-align: center;
+  }
+  .corporate--footer .et-social-icons {
+    margin: 0 0 5px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .corporate--footer #footer-widgets .footer-widget {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  .corporate--footer #footer-widgets .footer-widget .fwidget, .corporate--footer #footer-widgets .footer-widget:nth-child(n) {
+    margin-bottom: 9.5% !important;
+  }
+  .corporate--footer #footer-widgets {
+    padding: 10% 0;
+  }
+  .corporate--footer #footer-widgets .footer-widget .fwidget:last-child, .corporate--footer #footer-widgets .footer-widget:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media all and (max-width: 479px) {
+  .corporate--footer #footer-widgets .footer-widget:nth-child(n), .corporate--footer .footer-widget .fwidget {
+    margin-bottom: 11.5% !important;
+  }
+  .corporate--footer #footer-widgets {
+    padding: 12% 0;
+  }
+}
+
+@media all {
+  .corporate--footer .et-social-facebook a.icon:before {
+    content: "\e093";
+  }
+  .corporate--footer .et-social-twitter a.icon:before {
+    content: "\e094";
+  }
+  .corporate--footer .et-social-linkedin a.icon:before {
+    content: "\e09d";
+  }
+  .corporate--footer .et-social-instagram a.icon:before {
+    content: "\e09a";
+  }
+  .corporate--footer .et-social-youtube a.icon:before {
+    content: "\e0a3";
+  }
+}
+
+@media all and (min-width: 981px) {
+  .corporate--footer .et_pb_gutters3 .footer-widget {
+    margin-right: 5.5%;
+    margin-bottom: 5.5%;
+  }
+  .corporate--footer .et_pb_gutters3 .footer-widget:last-child {
+    margin-right: 0;
+  }
+  .corporate--footer .et_pb_gutters3.et_pb_footer_columns3 .footer-widget {
+    width: 29.667%;
+  }
+  .corporate--footer .et_pb_gutters3.et_pb_footer_columns3 .footer-widget .fwidget {
+    margin-bottom: 18.539%;
+  }
+}
+
+@media all {
+  .corporate--footer * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .corporate--footer .et-social-icon a:before {
+    font-family: ETmodules !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0;
+    direction: ltr;
+  }
+  .corporate--footer .et_pb_widget {
+    float: left;
+    max-width: 100%;
+  }
+  .corporate--footer .et_pb_widget a {
+    text-decoration: none;
+    color: #666;
+  }
+  .corporate--footer .et_pb_widget li a:hover {
+    color: #82c0c7;
+  }
+  .corporate--footer .et_pb_widget ul li {
+    margin-bottom: .5em;
+  }
+  .corporate--footer .et_pb_widget {
+    word-wrap: break-word;
+  }
+  .corporate--footer .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .corporate--footer .clear {
+    clear: both;
+  }
+  .corporate--footer button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+@media all {
+  .corporate--footer #evcal_list .eventon_list_event .desc_trig, .corporate--footer .event_description .evcal_close, .corporate--footer .calendar_header .evcal_arrows, .corporate--footer .desc_trig {
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  .corporate--footer .padb5 {
+    padding-bottom: 5px;
+  }
+  .corporate--footer .ajde_evcal_calendar {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+    position: relative;
+    color: #808080;
+    padding-bottom: 10px;
+  }
+  .corporate--footer .ajde_evcal_calendar > * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .corporate--footer body .ajde_evcal_calendar a, .corporate--footer .ajde_evcal_calendar a:hover {
+    text-decoration: none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .corporate--footer #evcal_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .corporate--footer .ajde_evcal_calendar .eventon_list_event {
+    margin-left: 0px;
+    list-style: none;
+  }
+  .corporate--footer .ajde_evcal_calendar .eventon_events_list p {
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  .corporate--footer .ajde_evcal_calendar .eventon_list_event .desc_trig_outter, .corporate--footer .eventon_events_list .desc_trig_outter, .corporate--footer .desc_trig_outter a.evcal_list_a {
+    margin: 0;
+  }
+  .corporate--footer .eventon_list_event .evcal_desc span.evcal_event_title, .corporate--footer .evo_clik_row .evo_h3, .corporate--footer .ajde_evcal_calendar .calendar_header p.evo_month_title {
+    font-weight: 700;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header p, .corporate--footer .ajde_evcal_calendar .evcal_evdata_row .evcal_evdata_cell h3.evo_h3, .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span.evcal_desc2, .corporate--footer .eventon_list_event .evcal_desc span.evcal_event_title, .corporate--footer .evcal_desc span.evcal_desc2, .corporate--footer .evo_clik_row .evo_h3, .corporate--footer .ajde_evcal_calendar .calendar_header p.evo_month_title, .corporate--footer .eventon_events_list .eventon_list_event .evcal_cblock {
+    font-family: roboto,'arial narrow';
+  }
+  .corporate--footer .ajde_evcal_calendar .eventon_events_list p, .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span, .corporate--footer .evcal_evdata_row.evcal_event_details .evcal_evdata_cell p, .corporate--footer #evcal_list .eventon_list_event .evoInput, .corporate--footer .evcal_evdata_row .evcal_evdata_cell p, .corporate--footer .evo_cal_above span, .corporate--footer .evcal_evdata_row {
+    font-family: 'open sans',arial;
+  }
+  .corporate--footer .fa-clock-o:before {
+    content: "\f017";
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header {
+    min-height: 37px;
+    padding: 0px;
+    margin: 5px 0 15px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .corporate--footer .ajde_evcal_calendar #evcal_prev {
+    margin-left: 15px;
+  }
+  .corporate--footer .ajde_evcal_calendar #evcal_next {
+    margin-left: 7px;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header p {
+    height: 36px;
+    line-height: 36px;
+    margin: 0 !important;
+    font-size: 36px;
+    font-weight: normal;
+    float: left;
+    color: #ababab;
+    text-transform: uppercase;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    width: auto;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows {
+    text-align: center;
+    float: left;
+    height: 35px;
+    width: 35px;
+    display: block;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    color: #e2e2e2;
+    position: relative;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows:before {
+    content: "";
+    border: solid #e2e2e2;
+    border-width: 0 2px 2px 0;
+    display: block;
+    padding: 4px;
+    position: relative;
+    margin: 11px;
+    -webkit-transform: rotate(135deg) translate(-2px, -2px);
+            transform: rotate(135deg) translate(-2px, -2px);
+    height: 1px;
+    width: 1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .corporate--footer .evo_widget .ajde_evcal_calendar .calendar_header .evcal_arrows:before {
+    margin: 6px;
+    padding: 2px;
+  }
+  .corporate--footer .evo_widget .ajde_evcal_calendar .evcal_arrows.evcal_btn_prev:before {
+    -webkit-transform: rotate(135deg) translate(-1px, -1px);
+            transform: rotate(135deg) translate(-1px, -1px);
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows.evcal_btn_next:before {
+    -webkit-transform: rotate(-45deg) translate(-1px, -1px);
+            transform: rotate(-45deg) translate(-1px, -1px);
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header p.evo_arrows {
+    float: left;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows:hover {
+    background-color: #e2e2e2;
+  }
+  .corporate--footer .evo_cal_above span {
+    margin-bottom: 5px;
+  }
+  .corporate--footer .evo_cal_above span {
+    opacity: 0.4;
+    background-color: #ADADAD;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 4px;
+    min-height: 25px;
+    line-height: 25px;
+  }
+  .corporate--footer .evo_cal_above span:hover {
+    opacity: 1;
+  }
+  .corporate--footer #eventon_loadbar {
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #efefef;
+    display: none;
+    position: relative;
+    overflow: hidden;
+  }
+  .corporate--footer #eventon_loadbar:before {
+    content: "";
+    width: 100px;
+    height: 100%;
+    display: block;
+    background-color: #f5b87a;
+    position: absolute;
+    left: 0;
+    -webkit-animation-name: fontbulger;
+            animation-name: fontbulger;
+    -webkit-animation-duration: 0.7s;
+            animation-duration: 0.7s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: none;
+            animation-fill-mode: none;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  .corporate--footer #eventon_loadbar_section {
+    height: auto;
+    width: 100%;
+    margin-top: 6px;
+  }
+  .corporate--footer #evcal_list .eventon_list_event a.desc_trig, .corporate--footer #evcal_list p {
+    display: none;
+    text-decoration: none;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .event_description p, .corporate--footer #evcal_list .eventon_list_event p a.desc_trig, .corporate--footer #evcal_list .eventon_list_event p.desc_trig_outter {
+    display: block;
+  }
+  .corporate--footer #evcal_list {
+    border-right: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .corporate--footer .ajde_evcal_calendar .eventon_events_list .eventon_list_event {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    list-style-type: none;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .desc_trig {
+    cursor: pointer;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .desc_trig:hover {
+    background-color: #fdfdfd;
+    border-left-width: 7px;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #808080;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_list_a:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    display: block;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_list_a {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 15px 0 15px;
+    overflow: hidden;
+    border-left-width: 3px;
+    border-left-style: solid;
+    min-height: 63px;
+    border-bottom: none;
+    float: none;
+  }
+  .corporate--footer .eventon_events_list a, .corporate--footer .eventon_events_list a:hover {
+    text-decoration: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .corporate--footer .ajde_evcal_calendar .clear {
+    clear: both;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_cblock {
+    background-color: transparent !important;
+    color: #808080;
+    font-size: 30px;
+    padding: 0px 8px 2px 13px;
+    font-weight: bold;
+    position: absolute;
+    line-height: 110%;
+    min-height: 30px;
+    margin: 0 6px 0 0;
+    left: 0;
+  }
+  .corporate--footer .evcal_cblock .evo_start {
+    float: left;
+    font-size: 30px;
+    clear: both;
+  }
+  .corporate--footer .evcal_cblock .evo_end {
+    float: left;
+    padding-left: 8px;
+    font-size: 14px;
+    position: relative;
+    margin-top: 4px;
+  }
+  .corporate--footer .evcal_cblock .evo_end:before {
+    background-color: #ABABAB;
+    height: 2px;
+    width: 4px;
+    margin-left: 2px;
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 50%;
+  }
+  .corporate--footer .evcal_cblock .evo_start em.month {
+    font-size: 11px;
+    font-weight: normal;
+    display: block;
+  }
+  .corporate--footer .evcal_cblock em.time {
+    font-size: 10px;
+  }
+  .corporate--footer .evcal_cblock .time {
+    display: none;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_cblock em {
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 110%;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_cblock span {
+    line-height: 100%;
+    vertical-align: super;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc {
+    margin-left: 5px;
+    padding: 3px 15px 0 70px;
+    margin-bottom: 0px;
+    top: 0;
+    display: block;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3 span {
+    padding-bottom: 2px;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .mul_val .evcal_desc {
+    padding-left: 90px;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span {
+    display: block;
+    color: #262626;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3 > * {
+    display: inline-block;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span.evo_above_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc_info {
+    font-size: 12px;
+    line-height: 120%;
+    padding-bottom: 2px;
+  }
+  .corporate--footer .eventon_list_event:hover .evcal_desc .evcal_desc_info {
+    opacity: 1;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span.evcal_desc2 {
+    color: #808080;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  .corporate--footer .evcal_desc .evcal_desc3 {
+    min-height: 14px;
+  }
+  .corporate--footer .evcal_desc3 .evo_event_progress {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 13px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    line-height: 1.3;
+  }
+  .corporate--footer .evcal_desc3 .evo_epbar_o {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 5px 10px !important;
+    border-radius: 15px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    margin-right: 10px;
+  }
+  .corporate--footer .evcal_desc3 .evo_event_progress > * {
+    margin-bottom: 5px;
+  }
+  .corporate--footer .evcal_desc3 .evo_ep_bar {
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    height: 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .corporate--footer .evcal_desc3 .evo_ep_bar b {
+    background-color: #f79191;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 4px;
+    position: relative;
+    border-radius: 20px;
+  }
+  .corporate--footer .evcal_desc3 .evo_ep_bar b:before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #f79191;
+    border-radius: 50%;
+    right: 0;
+    position: absolute;
+    margin-top: -3px;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc3 .evo_ep_time {
+    color: #8c8c8c;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc em {
+    font-weight: normal;
+    margin-bottom: 6px;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_location, .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_time {
+    font-style: normal;
+    padding-left: 15px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+  }
+  .corporate--footer .evcal_location .event_location_name {
+    font-style: normal;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_time::before {
+    content: "\f017";
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_location {
+    display: inline-block;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_location::before {
+    content: "\f041";
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_time::before, .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc .evcal_location::before {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    display: inline-block;
+    font-family: 'evo_FontAwesomeS';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .event_description {
+    background-color: #fdfdfd;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .event_description {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .event_description p {
+    float: none;
+  }
+  .corporate--footer .event_description p {
+    font-family: arial;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .evoInput {
+    padding: 2px 5px;
+    border: 1px solid #ddd;
+    color: #888;
+    font-style: italic;
+    font-size: 13px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .event_description .evcal_gmaps {
+    height: 200px;
+    max-width: none;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections {
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections form {
+    margin: 0;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections p {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections .evoInput {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    padding: 8px 20px;
+    margin: 0;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections .evcalicon_9 {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    color: #858585;
+    font-size: 18px;
+    background: transparent;
+    height: 100%;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections .evcalicon_9:hover {
+    opacity: 0.7;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_icons {
+    display: block;
+    position: absolute;
+    padding: 0;
+    width: 31px;
+    height: 30px;
+  }
+  .corporate--footer .evcal_evdata_row h3 .evcal_evdata_icons {
+    display: none;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    line-height: 100%;
+    float: none;
+  }
+  .corporate--footer .event_description.evcal_eventcard {
+    padding-top: 8px;
+  }
+  .corporate--footer .event_description.evcal_eventcard .evcal_evdata_row:first-child {
+    margin-top: 0px;
+  }
+  .corporate--footer .evcal_evdata_row {
+    position: relative;
+    border: none;
+    margin: 8px 8px 0;
+    font-size: 14px;
+  }
+  .corporate--footer .evcal_evdata_row, .corporate--footer .evcal_evdata_row.evorow_2b .evorow_b {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .corporate--footer .evcal_evdata_row.evorow_2b {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+    background-color: transparent;
+  }
+  .corporate--footer .evcal_evdata_row.evorow_2b .evorow_b {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .corporate--footer .evcal_evdata_row.evorow_2b .evorow_b.evorow_b1 {
+    margin-right: 8px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+  .corporate--footer .evo_ics_nCal {
+    margin-right: 8px;
+  }
+  .corporate--footer .evcal_evdata_row .evo_clik_row:hover {
+    background-color: #fffbed;
+  }
+  .corporate--footer .evo_ics.evo_clik_row .evo_h3, .corporate--footer .evo_metarow_learnmore.evo_clik_row .evo_h3 {
+    padding: 0;
+  }
+  .corporate--footer .evo_metarow_learnmore.evo_clik_row .evo_h3 {
+    padding-top: 5px;
+  }
+  .corporate--footer .evo_ics.evo_clik_row .evo_h3 a:hover {
+    opacity: 0.6;
+  }
+  .corporate--footer .evo_clik_row .evo_h3 {
+    padding: 5px 0 5px 30px;
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .corporate--footer .event_description .evcal_close:hover {
+    background-color: #f1f1f1;
+  }
+  .corporate--footer .event_description .evcal_close {
+    display: none;
+  }
+  .corporate--footer .event_description .evo_card_row_end {
+    background-color: #f7f7f7;
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 30px;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 8px;
+  }
+  .corporate--footer .event_description .evo_card_row_end:before {
+    content: "\f077";
+    display: block;
+    font-family: 'evo_FontAwesomeS';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    padding-top: 8px;
+    opacity: 0.4;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell > * {
+    margin: 0;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3 {
+    color: #808080;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 8px;
+    font-weight: 700;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3 a {
+    font-weight: 700;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell a {
+    border: none;
+    padding: 0;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell {
+    padding-left: 40px;
+    min-height: 25px;
+  }
+  .corporate--footer .evcal_evdata_row.evcal_event_details .evcal_evdata_cell p {
+    font-style: normal;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell p {
+    font-size: 11px;
+    line-height: 140%;
+  }
+  .corporate--footer .evcal_evdata_row i.fa {
+    display: block;
+    opacity: 0.5;
+  }
+  .corporate--footer .eventon_list_event .evo_eventcard_time_t {
+    margin-right: 8px;
+    margin-bottom: 5px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .corporate--footer .eventon_list_event .evo_metarow_details .eventon_full_description p {
+    font-size: 13px;
+    padding-bottom: 8px;
+  }
+  .corporate--footer .eventon_full_description .eventon_desc_in {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .evcal_desc span.evcal_event_title {
+    line-height: 120%;
+    padding-bottom: 3px;
+  }
+  .corporate--footer .eventon_list_event .event_description p {
+    font-size: 14px;
+    color: #656565;
+    margin: 0;
+  }
+  .corporate--footer .evcal_event_details .evcal_evdata_cell {
+    position: relative;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc_info em {
+    color: #9b9999;
+    font-weight: normal;
+  }
+  .corporate--footer #evcal_widget .ajde_evcal_calendar .calendar_header {
+    padding-bottom: 5px;
+    min-height: inherit;
+  }
+  .corporate--footer #evcal_widget a {
+    font-weight: normal;
+  }
+  .corporate--footer #evcal_widget .event_description .evcal_evdata_row p {
+    line-height: 130%;
+    font-size: 11px;
+  }
+  .corporate--footer #evcal_widget .event_description .evcal_evdata_row {
+    padding: 15px 15px;
+  }
+  .corporate--footer #evcal_widget .event_description .evcal_evdata_row .evcal_evdata_icons, .corporate--footer #evcal_widget .evcal_evdata_icons {
+    display: none;
+  }
+  .corporate--footer #evcal_widget .evo_clik_row .evo_h3 {
+    padding: 0px;
+  }
+  .corporate--footer #evcal_widget .evo_clik_row {
+    padding: 5px 15px;
+  }
+  .corporate--footer #evcal_widget .event_description .evcal_evdata_row .evcal_evdata_cell {
+    padding-left: 0px;
+  }
+  .corporate--footer #evcal_widget .event_description .evcal_evdata_row .evcal_evdata_cell h3, .corporate--footer #evcal_widget .evo_clik_row .evo_h3 {
+    font-size: 14px;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .evcal_desc2 {
+    line-height: 120%;
+    font-size: 14px;
+  }
+  .corporate--footer #evcal_widget .ajde_evcal_calendar .calendar_header p {
+    font-size: 18px;
+    height: auto;
+  }
+  .corporate--footer #evcal_widget .ajde_evcal_calendar #evcal_prev {
+    margin-right: 8px;
+  }
+  .corporate--footer #evcal_widget .ajde_evcal_calendar #evcal_next {
+    margin-left: 8px;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .evcal_cblock {
+    font-size: 24px;
+    padding: 3px 5px 5px 8px;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .eventon_list_event .evcal_desc {
+    padding-left: 35px;
+    padding-right: 10px;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .eventon_list_event .mul_val .evcal_desc {
+    padding-left: 60px;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .eventon_list_event .evcal_cblock span {
+    font-size: 10px;
+  }
+  .corporate--footer #evcal_widget #evcal_list .eventon_list_event .evcal_list_a {
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  .corporate--footer #evcal_widget #evcal_head .evcal_arrows {
+    margin-top: 0px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    line-height: 100%;
+  }
+  .corporate--footer #evcal_widget #evcal_head #evcal_prev {
+    margin-right: 2px;
+  }
+  .corporate--footer #evcal_widget #evcal_head #evcal_next {
+    margin-left: 2px;
+  }
+  .corporate--footer #evcal_widget #evcal_head #evcal_next:hover {
+    background-position: -24px 20px;
+  }
+  .corporate--footer #evcal_widget #evcal_head {
+    min-height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  .corporate--footer #evcal_widget #evcal_cur {
+    line-height: 100%;
+    height: auto;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .evcal_cblock .evo_start .date {
+    font-size: 16px;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .evcal_cblock .evo_start .month {
+    font-size: 10px;
+  }
+  .corporate--footer #evcal_widget .evo_metarow_ICS a {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .corporate--footer .ajde_evcal_calendar .calendar_header p {
+    font-size: 24px;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell {
+    padding-left: 0px;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3, .corporate--footer .evo_metarow_ICS.evo_clik_row .evcal_evdata_cell h3, .corporate--footer .evo_metarow_learnmore.evo_clik_row .evcal_evdata_cell h3 {
+    padding-left: 35px;
+    padding-top: 0px;
+  }
+  .corporate--footer .evo_metarow_ICS.evo_clik_row .evcal_evdata_cell h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections .evoInput {
+    font-size: 13px;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .event_description p {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .corporate--footer .evcal_evdata_row.evorow_2b {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .corporate--footer .evcal_evdata_row.evorow_2b .evorow_b.evorow_b1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 0 8px 0;
+  }
+}
+
+@media all {
+  .corporate--footer .fa {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  .corporate--footer .fa-align-justify:before {
+    content: "\f039";
+  }
+  .corporate--footer .fa-calendar:before {
+    content: "\f133";
+  }
+  .corporate--footer .fa-link:before {
+    content: "\f0c1";
+  }
+  .corporate--footer .fa-map-marker:before {
+    content: "\f041";
+  }
+  .corporate--footer .fa-road:before {
+    content: "\f018";
+  }
+  .corporate--footer .fa {
+    font-family: 'evo_FontAwesomeS','evo_FontAwesome','evo_FontAwesomeB';
+    font-weight: 400;
+  }
+}
+
+@media all {
+  .corporate--footer .eventon_events_list .eventon_list_event .desc_trig {
+    background-color: #ffffff;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .desc_trig:hover {
+    background-color: #fbfbfb;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header p, .corporate--footer .ajde_evcal_calendar .evcal_evdata_row .evcal_evdata_cell h3.evo_h3, .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span.evcal_desc2, .corporate--footer .eventon_list_event .evcal_desc span.evcal_event_title, .corporate--footer .evcal_desc span.evcal_desc2, .corporate--footer .evo_clik_row .evo_h3, .corporate--footer .ajde_evcal_calendar .calendar_header p.evo_month_title, .corporate--footer .eventon_events_list .eventon_list_event .evcal_cblock {
+    font-family: roboto, 'arial narrow';
+  }
+  .corporate--footer .ajde_evcal_calendar .eventon_events_list p, .corporate--footer .eventon_events_list .eventon_list_event .evcal_desc span, .corporate--footer .evcal_evdata_row.evcal_event_details .evcal_evdata_cell p, .corporate--footer #evcal_list .eventon_list_event .evoInput, .corporate--footer .evcal_evdata_row .evcal_evdata_cell p, .corporate--footer .evo_cal_above span {
+    font-family: 'open sans', 'arial narrow';
+  }
+  .corporate--footer #evcal_list .eventon_list_event .evcal_desc em {
+    color: #8c8c8c;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_icons i {
+    color: #6B6B6B;
+    font-size: 18px;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3, .corporate--footer .evo_clik_row .evo_h3 {
+    font-size: 18px;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .evcal_cblock {
+    color: #ABABAB;
+  }
+  .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3, .corporate--footer .evorow .evo_clik_row h3, .corporate--footer .evcal_evdata_row .evcal_evdata_cell h3 a {
+    color: #6B6B6B;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .evcal_eventcard p {
+    color: #656565;
+  }
+  .corporate--footer .ajde_evcal_calendar #evcal_head.calendar_header #evcal_cur {
+    color: #C6C6C6;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .event_description {
+    background-color: #fdfdfd;
+  }
+  .corporate--footer .evcal_evdata_row, .corporate--footer .evcal_evdata_row.evorow_2b .evorow_b {
+    background-color: #f3f3f3;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .event_description, .corporate--footer #evcal_list {
+    border-color: #f1f1f1;
+  }
+  .corporate--footer .eventon_events_list .eventon_list_event .evcal_list_a:after, .corporate--footer .evcal_list_a:after {
+    background-color: #e5e5e5;
+  }
+  .corporate--footer #eventon_loadbar_section {
+    border-color: #e5e5e5;
+  }
+  .corporate--footer .evcal_desc3 .evo_ep_bar b, .corporate--footer .evcal_desc3 .evo_ep_bar b:before {
+    background-color: #f79191;
+  }
+  .corporate--footer .event_description .evcal_close {
+    background-color: #f7f7f7;
+  }
+  .corporate--footer .event_description .evcal_close:hover {
+    background-color: #f1f1f1;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections {
+    background-color: #ffffff;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections .evoInput {
+    color: #888888;
+  }
+  .corporate--footer #evcal_list .evorow.getdirections .evcalicon_9 i {
+    color: #858585;
+  }
+  .corporate--footer #evcal_list .eventon_list_event .evcal_desc span.evcal_event_title {
+    color: #6B6B6B;
+  }
+  .corporate--footer .evo_cal_above span {
+    color: #ffffff;
+    background-color: #ADADAD;
+  }
+  .corporate--footer .evo_cal_above span:hover {
+    color: #ffffff;
+    background-color: #d3d3d3;
+  }
+  .corporate--footer .evo_cal_above span.evo-gototoday-btn {
+    color: #ffffff;
+    background-color: #ADADAD;
+  }
+  .corporate--footer .evo_cal_above span.evo-gototoday-btn:hover {
+    color: #ffffff;
+    background-color: #d3d3d3;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows {
+    color: #e2e2e2;
+    border-color: #e2e2e2;
+    background-color: #ffffff;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows:hover {
+    color: #e2e2e2;
+    border-color: #e2e2e2;
+    background-color: #ededed;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows:before {
+    border-color: #e2e2e2;
+  }
+  .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows.evcal_btn_next:hover:before, .corporate--footer .ajde_evcal_calendar .calendar_header .evcal_arrows.evcal_btn_prev:hover:before {
+    border-color: #ffffff;
+  }
+  .corporate--footer #eventon_loadbar {
+    background-color: #efefef;
+  }
+  .corporate--footer #eventon_loadbar:before {
+    background-color: #f5b87a;
+  }
+  .corporate--footer #evcal_widget .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc_info em {
+    color: #8c8c8c;
+  }
+}
+
+@media all {
+  .corporate--footer .clear {
+    clear: both;
+  }
+}
+
+@media all {
+  .corporate--footer button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+.corporate--footer h3, .corporate--footer h4 {
+  color: #333e48;
+}
+
+.corporate--footer .et-social-icon a:hover, .corporate--footer .et_pb_widget li a:hover {
+  color: #dd0031;
+}
+
+.corporate--footer .footer-widget h4 {
+  color: #dd0031;
+}
+
+.corporate--footer .footer-widget li:before {
+  border-color: #dd0031;
+}
+
+.corporate--footer .container {
+  max-width: 1250px;
+}
+
+.corporate--footer a {
+  color: #dd0031;
+}
+
+.corporate--footer #main-footer {
+  background-color: #ffffff;
+}
+
+.corporate--footer #footer-widgets .footer-widget a, .corporate--footer #footer-widgets .footer-widget li a, .corporate--footer #footer-widgets .footer-widget li a:hover {
+  color: #000000;
+}
+
+.corporate--footer .footer-widget {
+  color: #000000;
+}
+
+.corporate--footer #main-footer .footer-widget h4 {
+  color: #dd0031;
+}
+
+.corporate--footer .footer-widget li:before {
+  border-color: #dd0031;
+}
+
+.corporate--footer .footer-widget, .corporate--footer .footer-widget li, .corporate--footer .footer-widget li a, .corporate--footer #footer-info {
+  font-size: 14px;
+}
+
+.corporate--footer .footer-widget .et_pb_widget div, .corporate--footer .footer-widget .et_pb_widget ul {
+  line-height: 1.7em;
+}
+
+.corporate--footer #et-footer-nav {
+  background-color: #ffffff;
+}
+
+.corporate--footer .bottom-nav, .corporate--footer .bottom-nav a, .corporate--footer .bottom-nav li.current-menu-item a {
+  color: #8b2332;
+}
+
+.corporate--footer #et-footer-nav .bottom-nav li.current-menu-item a {
+  color: #dd0031;
+}
+
+.corporate--footer .bottom-nav, .corporate--footer .bottom-nav a {
+  font-size: 13px;
+}
+
+.corporate--footer #footer-bottom {
+  background-color: #dbd9d9;
+}
+
+.corporate--footer #footer-info, .corporate--footer #footer-info a {
+  color: #333e48;
+}
+
+.corporate--footer #footer-info {
+  font-size: 12px;
+}
+
+.corporate--footer #footer-bottom .et-social-icon a {
+  color: #dd0031;
+}
+
+.corporate--footer h3, .corporate--footer h4 {
+  font-family: 'Merriweather',Georgia,"Times New Roman",serif;
+}
+
+.corporate--footer input {
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.corporate--footer body:not(.ae-reader) .ae-reader-visible.ae-compliance-indent {
+  display: inline-block !important;
+  height: 1px;
+  left: -9999px !important;
+  line-height: 0px;
+  overflow: hidden;
+  position: absolute !important;
+  top: 0;
+  white-space: nowrap;
+  width: 1px !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.corporate--header, .corporate--footer {
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

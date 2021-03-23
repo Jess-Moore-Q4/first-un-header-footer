@@ -1,11 +1,11 @@
-$host: 'https://firstunitedcorp2020index.s4.q4web.com'; 
-// $host: '..' ;
+// $host: 'https://firstunitedcorp2020index.s4.q4web.com/files'; 
+$host: '..' ;
 
 @font-face {
     font-family: ETmodules;
     font-display: swap;
-    src: url(#{$host}/files/design/header/modules.eot);
-    src: url(#{$host}/files/design/header/modules.eot?#iefix) format("embedded-opentype"),url(#{$host}/files/design/header/modules.ttf) format("truetype"),url(#{$host}/files/design/header/modules.woff) format("woff"),url(#{$host}/files/design/header/modules.svg#ETmodules) format("svg");
+    src: url(#{$host}/design/header/modules.eot);
+    src: url(#{$host}/design/header/modules.eot?#iefix) format("embedded-opentype"),url(#{$host}/design/header/modules.ttf) format("truetype"),url(#{$host}/design/header/modules.woff) format("woff"),url(#{$host}/design/header/modules.svg#ETmodules) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -286,9 +286,6 @@ $host: 'https://firstunitedcorp2020index.s4.q4web.com';
 
 .corporate--footer {
     /*! CSS Used from: https://mybank.com/wp-includes/css/dist/block-library/style.min.css?ver=588f839b0edea5096e103006e9c023a5 ; media=all */
-@media all{
-    p:empty:before{content:"​";}
-    }
     /*! CSS Used from: https://mybank.com/wp-content/plugins/awsm-team-pro/css/team.min.css?ver=1.9.1 ; media=all */
     @media all{
     .clearfix::after{content:"";clear:both;display:block;}
