@@ -1,8 +1,8 @@
 @font-face {
   font-family: ETmodules;
   font-display: swap;
-  src: url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.eot);
-  src: url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.eot?#iefix) format("embedded-opentype"), url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.ttf) format("truetype"), url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.woff) format("woff"), url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.svg#ETmodules) format("svg");
+  src: url(../design/header/modules.eot);
+  src: url(../design/header/modules.eot?#iefix) format("embedded-opentype"), url(../design/header/modules.ttf) format("truetype"), url(../design/header/modules.woff) format("woff"), url(../design/header/modules.svg#ETmodules) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -2552,6 +2552,19 @@
   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
+.corporate--footer #footer-bottom {
+  padding: 15px 0 50px;
+}
+
+.corporate--footer #footer-bottom h3 {
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  margin-top: 1em;
+}
+
+.corporate--footer #footer-bottom #footer-info {
+  float: none;
+}
+
 .corporate--footer #footer-bottom #footerEmail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2562,5 +2575,20 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  padding: 2px 10px;
+}
+
+.corporate--footer #footer-bottom #footerEmail .btn-primary {
+  background: #df1e34;
+  border: 1px solid #df1e34;
+  color: #ffffff;
+  border-radius: 0px !important;
+}
+
+.corporate--footer #footer-bottom #footerEmail .btn-primary:hover, .corporate--footer #footer-bottom #footerEmail .btn-primary:focus {
+  background: #df1e34;
+  text-decoration: none;
+  color: #fff;
+  border-color: #df1e34;
 }
 /*# sourceMappingURL=styles.css.map */
