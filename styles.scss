@@ -1,5 +1,5 @@
-// $host: 'https://firstunitedcorp2020index.s4.q4web.com/files'; 
-$host: '..' ;
+$host: 'https://firstunitedcorp2020index.s4.q4web.com/files'; 
+// $host: '..' ;
 
 @font-face {
     font-family: ETmodules;
@@ -637,4 +637,39 @@ $host: '..' ;
 
 .corporate--header, .corporate--footer {
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.corporate--footer #footer-bottom {
+    padding: 15px 0 50px;
+    h3 {
+        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+        margin-top: 1em;
+    }
+    #footer-info {
+        float: none;
+    }
+    #footerEmail {
+        display: flex;
+
+        input {
+            flex-grow: 1;
+            padding: 2px 10px;
+        }
+        .btn-primary {
+            background: #df1e34;
+            border: 1px solid #df1e34;
+            color: #ffffff;
+            -webkit-border-radius: 0px !important;
+            -moz-border-radius: 0px !important;
+            border-radius: 0px !important;
+
+            &:hover,
+            &:focus {
+                background: #df1e34;
+                text-decoration: none;
+                color: #fff;
+                border-color: #df1e34;
+            }
+        }
+    }
 }

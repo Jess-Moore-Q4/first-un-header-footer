@@ -21,55 +21,75 @@
 </div> <!-- #et-footer-nav -->
 <div id="footer-bottom">
     <div class="container clearfix">
-        <ul class="et-social-icons">
-            <li class="et-social-icon et-social-facebook">
-                <a href="http://facebook.com/mybank" class="icon exitNotifierLink">
-                    <span role="presentation" aria-hidden="true" tabindex="-1" class="ae-exclude">Facebook</span>
-                    <span style="display:none;" class="ae-reader-visible ae-compliance-indent"> Facebook </span></a>
-            </li>
-            <li class="et-social-icon et-social-twitter">
-                <a href="http://twitter.com/mybank" class="icon exitNotifierLink">
-                    <span role="presentation" aria-hidden="true" tabindex="-1" class="ae-exclude">Twitter</span>
-                    <span style="display:none;" class="ae-reader-visible ae-compliance-indent"> Twitter </span></a>
-            </li>
-            <li class="et-social-icon et-social-instagram">
-                <a href="https://www.instagram.com/firstunitedismybank/" class="icon exitNotifierLink">
-                    <span role="presentation" aria-hidden="true" tabindex="-1" class="ae-exclude">Instagram</span>
-                    <span style="display:none;" class="ae-reader-visible ae-compliance-indent"> Instagram
-                    </span></a>
-            </li>
-
-            <li class="et-social-icon et-social-linkedin"><a
-                    href="https://www.linkedin.com/company/my-bank-first-united-bank-&amp;-trust"
-                    class="icon exitNotifierLink"><span role="presentation" aria-hidden="true" tabindex="-1"
-                        class="ae-exclude">LinkedIn</span><span style="display:none;"
-                        class="ae-reader-visible ae-compliance-indent"> LinkedIn </span></a></li>&nbsp;<li
-                class="et-social-icon et-social-youtube"><a
-                    href="https://www.youtube.com/channel/UC7ZDB4CstbwKVs8_ScZy1Kg"
-                    class="icon exitNotifierLink"><span role="presentation" aria-hidden="true" tabindex="-1"
-                        class="ae-exclude">YouTube</span><span style="display:none;"
-                        class="ae-reader-visible ae-compliance-indent"> YouTube </span></a></li>&nbsp;
-        </ul>
-        <div id="footer-info">© 2018 First United Bank &amp; Trust. All rights reserved.
-            <p>
-            </p>
-            <p>If you wish to receive a printed copy of our Privacy Notice, please contact our Customer Service
-                Center at 1-888-692-2654.
-            </p>
-            <p>
-            </p>
-            <p><strong>NOTICE:</strong> First United Wealth Management products and services: i) are not deposits or
-                other obligations of, nor are they guaranteed by, First United Bank &amp; Trust or it’s affiliates,
-                ii) are not insured by the Federal Deposit Insurance Corporation (FDIC) or any other agency of the
-                United States or by First United Bank &amp; Trust or it’s affiliates; and iii) are subject to
-                investment risks, including the possible loss of value.
-            </p>
-            <p>To use and view some of our content, you may need to download a PDF Reader. You can <a
-                    href="https://get.adobe.com/reader/" target="_blank" rel="noopener" class="exitNotifierLink"
-                    aria-describedby="audioeye_new_window_message">get a free copy of this software from Adobe at
-                    this link</a>.
-            </p>
-            <p></p>
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="et-social-icons">
+                    <li class="et-social-icon et-social-facebook">
+                        <a href="http://facebook.com/mybank" class="icon exitNotifierLink">
+                            <span role="presentation" aria-hidden="true" tabindex="-1" class="ae-exclude">Facebook</span>
+                            <span style="display:none;" class="ae-reader-visible ae-compliance-indent"> Facebook </span></a>
+                    </li>
+                    <li class="et-social-icon et-social-twitter">
+                        <a href="http://twitter.com/mybank" class="icon exitNotifierLink">
+                            <span role="presentation" aria-hidden="true" tabindex="-1" class="ae-exclude">Twitter</span>
+                            <span style="display:none;" class="ae-reader-visible ae-compliance-indent"> Twitter </span></a>
+                    </li>
+                    <li class="et-social-icon et-social-instagram">
+                        <a href="https://www.instagram.com/firstunitedismybank/" class="icon exitNotifierLink">
+                            <span role="presentation" aria-hidden="true" tabindex="-1" class="ae-exclude">Instagram</span>
+                            <span style="display:none;" class="ae-reader-visible ae-compliance-indent"> Instagram
+                            </span></a>
+                    </li>
+                    <li class="et-social-icon et-social-linkedin"><a
+                            href="https://www.linkedin.com/company/my-bank-first-united-bank-&amp;-trust"
+                            class="icon exitNotifierLink"><span role="presentation" aria-hidden="true" tabindex="-1"
+                                class="ae-exclude">LinkedIn</span><span style="display:none;"
+                                class="ae-reader-visible ae-compliance-indent"> LinkedIn </span></a></li>&nbsp;<li
+                        class="et-social-icon et-social-youtube"><a
+                            href="https://www.youtube.com/channel/UC7ZDB4CstbwKVs8_ScZy1Kg"
+                            class="icon exitNotifierLink"><span role="presentation" aria-hidden="true" tabindex="-1"
+                                class="ae-exclude">YouTube</span><span style="display:none;"
+                                class="ae-reader-visible ae-compliance-indent"> YouTube </span></a></li>&nbsp;
+                </ul>
+            </div>
+        </div>
+        <div id="footer-info">
+            <div class="col-md-4">
+                <h3>Contact Information</h3>
+                <p>
+                    If you wish to receive a printed copy of our Privacy Notice, please contact our Customer Service Center at 1-888-692-2654.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <ul class="quick-links">
+                    <li><a href="https://mybank.com/about/terms/" target="_blank">Terms & Conditions</a></li>
+                    <li><a href="https://mybank.com/about/security/" target="_blank">Security</a></li>
+                    <li><a href="https://mybank.com/wp-content/uploads/Privacy.pdf" target="_blank">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Email Notifications</h3>
+                <div id="footerEmail" class="form-group Customform-group">
+                    <input type="text" name="RegisterEmail" id="registerEmailId" placeholder="email">
+                    <button id="registerEmailSubmit" class="email-alert-button btn btn-default">Submit</button>
+                </div>
+            </div>
         </div>
     </div> <!-- .container -->
 </div>
+
+<script>
+    $("#registerEmailId").on("keypress", function (e) {
+        if (13 === (e.which || e.keyCode)) {
+            e.preventDefault();
+            window.location =
+                "/email-alerts" + "?email=" + $("#registerEmailId").val();
+        }
+    });
+    $("#registerEmailSubmit").on("click keypress", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.location =
+            "/other-information/email-notifications/default.aspx" + "?email=" + $("#registerEmailId").val();
+    });
+</script>

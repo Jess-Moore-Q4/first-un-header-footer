@@ -1,8 +1,8 @@
 @font-face {
   font-family: ETmodules;
   font-display: swap;
-  src: url(../design/header/modules.eot);
-  src: url(../design/header/modules.eot?#iefix) format("embedded-opentype"), url(../design/header/modules.ttf) format("truetype"), url(../design/header/modules.woff) format("woff"), url(../design/header/modules.svg#ETmodules) format("svg");
+  src: url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.eot);
+  src: url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.eot?#iefix) format("embedded-opentype"), url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.ttf) format("truetype"), url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.woff) format("woff"), url(https://firstunitedcorp2020index.s4.q4web.com/files/design/header/modules.svg#ETmodules) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -2550,5 +2550,17 @@
 
 .corporate--header, .corporate--footer {
   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.corporate--footer #footer-bottom #footerEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.corporate--footer #footer-bottom #footerEmail input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=styles.css.map */
